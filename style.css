@@ -1,12 +1,91 @@
-*   {
-    color:blue;
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
 }
-li  {
-    color:red;
+body {
+	line-height: 1;
+	background-color: whitesmoke;
+	width: 100%;
+	max-width: 1024px;
+	margin: 0 auto;
 }
-th  {
-    color:yellow;
+ol, ul {
+	list-style: none;
 }
-#unordered  {
-    color:black;
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+.center {
+	margin: auto;
+}
+#art {
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 40px
+}
+h3 {
+	color:white
+}
+#links a {
+	padding:15px; 
+	font-weight:bold;
+	float:left;
+	font-size: 30px;
+}
+#links li {
+	text-align: center;
+	display: inline-block;
+}
+.linkbar {
+	position: absolute;
+}
+nav ul {
+	text-align: center;
+	padding: 0;
+	background-color: whitesmoke;
+}
+nav ul li {
+	display: inline-block;
+	margin-right: 1em;
+	font-size: 0.75em;
+}
+h1 {
+	font-size: 3em;
+	line-height: 1;
+	font-weight: 400;
+	font-style: italic;
+	letter-spacing: 0.05em;
+	text-transform: capitalize;
+	text-align: center;
+	margin-bottom: 0;
+}
+img {
+	height: 600px;
+	width: 1024px;
+	margin:auto;
+}
+.image {
+	text-align: center;
+}
+header,main,footer {
+	background-color: grey;
+}
+.text {
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	color: white;
+	text-align: center;
 }
