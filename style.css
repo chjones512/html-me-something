@@ -90,10 +90,16 @@ header,main,footer {
 	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 	color: white;
 	text-align: center;
+	border-style: solid;
+	border-color:black;
+	border-radius:3%;
 }
 .button {
 	background-color: #000000;
 	border: none;
 	padding: 15px 32px;
 	display: inline-block;
+	border-style: solid;
+	border-color:red;
+	border-radius: 3%;
 }
