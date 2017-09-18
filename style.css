@@ -72,6 +72,8 @@ h1 {
 	text-transform: capitalize;
 	text-align: center;
 	margin-bottom: 0;
+	margin-top: 0;
+	color: white;
 }
 img {
 	height: 600px;
@@ -88,4 +90,10 @@ header,main,footer {
 	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 	color: white;
 	text-align: center;
+}
+.button {
+	background-color: #000000;
+	border: none;
+	padding: 15px 32px;
+	display: inline-block;
 }
